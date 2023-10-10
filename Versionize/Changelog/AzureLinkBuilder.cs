@@ -48,7 +48,7 @@ public class AzureLinkBuilder : IChangelogLinkBuilder
 
     public string BuildVersionTagLink(Version version)
     {
-        return $"https://{_organization}@dev.azure.com/{_organization}/{_repository}/releases/tag/v{version}";
+        return $"https://{_organization}@dev.azure.com/{_organization}/{_repository}/tags/v{version}";
     }
 
     public string BuildCommitLink(ConventionalCommit commit)
